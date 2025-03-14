@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+marquee {
+    background: #fc7adc;
+    padding: 10px;
+    font-weight: bold;
+}
+/* Navbar link styles */
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect: color change and background highlight */
+.navbar a:hover {
+    color: #000;
+    background-color: #fc7adc; /* highlight like your marquee */
+    border-radius: 5px;
+}
+
+
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+/* Events Section */
+.events-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.events-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.events-section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Horizontal event cards */
+.events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.event-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.event-card img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.event-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.event-info h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.event-info p {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.event-info strong {
+    color: #333;
+}
+
+/* Hover effect for event cards */
+.event-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.event-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.event-info h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.event-info p {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+/* Hover effect: scale and shadow */
+.event-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/* Optional: Add hover effect to images */
+.event-card img {
+    transition: filter 0.3s ease;
+}
+
+.event-card:hover img {
+    filter: brightness(0.8);
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
