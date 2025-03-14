@@ -42,7 +42,7 @@ marquee {
 
 /* Hover effect: color change and background highlight */
 .navbar a:hover {
-    color: #000;
+    color: #fff;
     background-color: #fc7adc; /* highlight like your marquee */
     border-radius: 5px;
 }
