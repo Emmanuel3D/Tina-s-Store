@@ -65,6 +65,7 @@ marquee {
 .appointments-section h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
+    color: #000;
 }
 
 .appointments-section p {
