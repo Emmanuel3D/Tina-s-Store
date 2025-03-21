@@ -108,7 +108,7 @@ marquee {
 }
 
 .overlay {
-    background-color: #fc7adc; /* Dark overlay for text readability */
+    background-color: rgbd(0, 0, 5); /* Dark overlay for text readability */
     color: white;
     display: flex;
     flex-direction: column;
